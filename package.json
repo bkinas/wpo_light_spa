@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "postinstall": "snowpack",
+    "format": "prettier --write *.js",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "htm": "3.0.3",
+    "hyperapp": "2.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "prettier": "1.19.1",
+    "snowpack": "1.2.0"
+  }
+}
